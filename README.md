@@ -7,7 +7,7 @@
 요청 URL:
 
 ```
-GET https://oneplatform.kr/api/report/tmon
+GET https://api.oneplatform.kr/api/report/tmon
 ```
 
 파라미터:
@@ -25,7 +25,7 @@ GET https://oneplatform.kr/api/report/tmon
 요청 예제:
 
 ```
-curl --header "Authorization: Bearer <your_access_token>" --header "Accept: aplication/json" https://oneplatform.kr/api/report/tmon
+curl --header "Authorization: Bearer <your_access_token>" --header "Accept: aplication/json" https://api.oneplatform.kr/api/report/tmon
 ```
 
 ```json
