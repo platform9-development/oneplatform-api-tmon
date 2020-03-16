@@ -1,3 +1,16 @@
+# 광고 링크 변환 안내
+
+                     |
+| `{click_id}`       | string | yes      | 클릭 아이디 (유니크 값 / ex: 사용자 고유 값_timestamp 값) |
+| `{advertising_id}` | string | yes      | 사용자 구글 광고 아이디 (ADID)                            |
+
+변환 예제:
+
+```
+http://app.appsflyer.com/com.tmon?af_siteid=100000&af_c_id=1&pid=platform9_int&c=test&af_click_lookback=1d&clickid=1_20200101000001&advertising_id=2d6f570e-abc5-4acf-ab53-d268cabff766&idfa=&is_retargeting=true&af_ios_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062&af_android_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062
+```
+
+
 # Tmon Report API
 
 > Version 0.1: 2020-03-02
