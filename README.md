@@ -1,8 +1,16 @@
 # 광고 링크 변환 안내
 
-                     |
+```
+http://app.appsflyer.com/com.tmon?af_siteid={af_siteid}&af_c_id={af_c_id}&pid=platform9_int&c={c}&af_click_lookback=1d&clickid={click_id}&advertising_id={advertising_id}&idfa=&is_retargeting=true&af_ios_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062&af_android_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062
+```
+변환 파라미터:
+| Attribute          | Type   | Required | Description                                               |
+| ------------------ | ------ | -------- | --------------------------------------------------------- |
+| `{af_siteid}`      | string | yes      | 매체 코드 (플랫폼나인에서 발급)                           |
+| `{af_c_id}`        | string | yes      | 캠페인 코드 (플랫폼나인에서 발급)                         |
+| `{c}`              | string | yes      | 캠페인명 (플랫폼나인에서 발급)                            |
 | `{click_id}`       | string | yes      | 클릭 아이디 (유니크 값 / ex: 사용자 고유 값_timestamp 값) |
-| `{advertising_id}` | string | yes      | 사용자 구글 광고 아이디 (ADID)                            |
+| `{advertising_id}` | string | yes      | 사용자 구글 광고 아이디 (ADID)     |
 
 변환 예제:
 
