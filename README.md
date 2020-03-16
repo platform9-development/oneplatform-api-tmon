@@ -1,4 +1,4 @@
-# 광고 링크 변환 안내
+# Tmon 광고 링크 변환
 
 ```
 http://app.appsflyer.com/com.tmon?af_siteid={af_siteid}&af_c_id={af_c_id}&pid=platform9_int&c={c}&af_click_lookback=1d&clickid={click_id}&advertising_id={advertising_id}&idfa=&is_retargeting=true&af_ios_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062&af_android_url=http%3A%2F%2Fgo.tmon.co.kr%2F%3Fv%3D0%26ln%3D829362%26jp%3D90062
